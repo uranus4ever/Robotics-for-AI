@@ -72,7 +72,7 @@ def search(grid, init, goal, cost, heuristic):
 
             if x == goal[0] and y == goal[1]:
                 found = True
-                print ("*******Successful Search*********")
+                print("*******Successful Search*********")
             else:
                 for i in range(len(delta)):
                     x2 = x + delta[i][0]
@@ -97,7 +97,7 @@ def search(grid, init, goal, cost, heuristic):
         y = y2
 
     for k in range(len(policy)):
-        print (policy[k])
+        print(policy[k])
 
     # return expand
 
